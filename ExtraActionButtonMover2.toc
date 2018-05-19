@@ -1,5 +1,5 @@
 ## Interface: 70300
-## Title: Extra Action Button Mover Legion
+## Title: Extra Action Button Mover 2
 ## Notes: Simply lets you move the Extra Action Button where you want it. Updated version for Legion
 ## SavedVariables: EABMoverDB
 ## SavedVariablesPerCharacter: EABMoverDB2
