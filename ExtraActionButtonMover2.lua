@@ -80,7 +80,7 @@ function EAB_OnEvent(self, event, arg1, arg2)
     end
 end
 
-function EAB_Timer(self, elapsed)
+function EAB_Timer()
     if PlayerPowerBarAlt:IsVisible() then
         PlayerPowerBarAlt:ClearAllPoints()
         PlayerPowerBarAlt:SetPoint("CENTER", EABPower, "CENTER")
@@ -90,8 +90,8 @@ end
 function EAB_Hook()
     if UnitAffectingCombat("player") ~= 1 then
         ExtraActionButton1:ClearAllPoints()
-        PlayerPowerBarAlt:ClearAllPoints()
         ExtraActionButton1:SetPoint("CENTER", EABMover, "CENTER")
+        PlayerPowerBarAlt:ClearAllPoints()
         PlayerPowerBarAlt:SetPoint("CENTER", EABPower, "CENTER")
 
         --point, relativeTo, relativePoint, xOfs, yOfs = MyRegion:GetPoint(n)
